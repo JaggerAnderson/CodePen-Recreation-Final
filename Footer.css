@@ -1,0 +1,29 @@
+.Footer-Wrapper > .Footer-Text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1px;
+    background-color: whitesmoke;
+    color: whitesmoke;
+    font-size: 1.2rem;
+}
+.Footer-Wrapper > .Footer-Text > .Footer-Teams {
+    padding: 15px 94px 15px 45px;
+    background-color: rgb(75, 80, 85);
+}
+.Footer-Wrapper > .Footer-Text > .Footer-Education {
+    padding: 15px 94px 15px 45px;
+    background-color: rgb(75, 80, 85);
+}
+.Footer-Wrapper > .Footer-Text > .Footer-Privacy {
+    padding: 15px 94px 15px 45px;
+    background-color: rgb(75, 80, 85);
+}
+.Footer-Wrapper > .Footer-Text > .Footer-Writing {
+    padding: 15px 94px 15px 45px;
+    background-color: rgb(75, 80, 85);
+}
+.Footer-Wrapper {
+    height: 150px;
+    background-image: radial-gradient(at -100% -50%, silver -45%, rgb(6, 8, 15) 80%);
+}

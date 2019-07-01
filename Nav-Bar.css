@@ -1,0 +1,79 @@
+/* Navigation Wrapper Css */
+.Navigation-Wrapper .Columns-Wrapper {
+    height: 50px;
+    background-color:   black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px;
+    font-size: 1.0rem;
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+}
+.Navigation-Wrapper > .Columns-Wrapper > .Left-Column > .Logos img {
+    width: 200px;
+    height: 100%;
+    margin-top: -20px;
+    filter: invert(100%);
+}
+.Navigation-Wrapper > .Columns-Wrapper > .Center-Column {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 400px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.Navigation-Wrapper > .Columns-Wrapper > .Center-Column .Explore-Features {
+display: flex;
+justify-content: space-between;
+}
+.Navigation-Wrapper > .Columns-Wrapper > .Center-Column > .Center-Explore {
+    Color: #fff158;
+    font-size: 0.9rem;
+    letter-spacing: 0px;
+}
+.Navigation-Wrapper > .Columns-Wrapper > .Center-Column > .Explore-Features > .Spark-Wrapper > .Center-Spark {
+    Color: #b8bbc8;
+    font-size: 1.0rem;
+    padding: 0px 0px 0px 15px;
+}
+.Navigation-Wrapper > .Columns-Wrapper > .Center-Column > .Explore-Features > .Spark-Wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Navigation-Wrapper > .Columns-Wrapper > .Center-Column > .Explore-Features > .Spark-Wrapper > .Spark-Icon i{
+    margin-top: 2px;
+    margin-left: 18px;
+    color: #b8bbc8;
+    font-size: 0.9rem;
+}
+.Navigation-Wrapper > .Columns-Wrapper > .Right-Column > .Links-Wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    width: 400px;
+}
+.Navigation-Wrapper > .Columns-Wrapper > .Right-Column > .Links-Wrapper > .Nav-Links {
+    padding: 15px;
+    background-color: rgb(75, 80, 85);
+    border-radius: 3px;
+}
+.Navigation-Wrapper > .Columns-Wrapper > .Right-Column > .Links-Wrapper > .Nav-Links a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.Navigation-Wrapper > .Columns-Wrapper > .Right-Column > .Links-Wrapper > .Nav-Links > .Create-Wrapper i {
+    font-size: 1.0em;
+    color: rgb(68, 209, 132);
+    margin-top: 5px;
+}
+.Navigation-Wrapper > .Columns-Wrapper > .Right-Column > .Links-Wrapper i {
+    font-size: 1.5em;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: darkgrey;
+}

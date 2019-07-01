@@ -1,0 +1,9 @@
+body {
+    margin: 0px;
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    letter-spacing: -1px;
+}
+.Bold-Text {
+    font-weight: 700;
+    color: whitesmoke;  
+}
